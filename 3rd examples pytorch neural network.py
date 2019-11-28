@@ -16,7 +16,7 @@ input_size = 784
 hidden_layer = 500
 num_class = 10
 num_epoch = 10
-batch_size = 100#64
+batch_size = 100
 learning_rate = 0.001
 
 train_dataset = torchvision.datasets.MNIST(root='../../data',train=True,
